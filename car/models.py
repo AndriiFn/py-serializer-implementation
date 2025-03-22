@@ -1,6 +1,7 @@
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
+
 class Car(models.Model):
     manufacturer = models.CharField(max_length=64)
     model = models.CharField(max_length=64)
